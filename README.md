@@ -1,4 +1,4 @@
-# Sticky Split — Premium Portfolio Layout
+# Sticky Split — Portfolio Layout
 
 ## Project Idea
 The "Sticky Split" is an asymmetric layout pattern designed for modern portfolios, editorial pages, and deep-dive case studies. The core concept revolves around dual-pane navigation: the left column acts as a persistent anchor (displaying identity, context, and navigation), while the right column houses scrollable, detailed content blocks. This ensures the user never loses context or navigation access while exploring deep content, resulting in a seamless, "app-like" browsing experience.
