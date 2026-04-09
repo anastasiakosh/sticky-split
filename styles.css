@@ -1,3 +1,7 @@
+html { 
+  scroll-behavior: smooth; 
+}
+
 body, html { 
   margin: 0; 
   padding: 0; 
@@ -54,12 +58,12 @@ body, html {
 }
 
 .linkedin-link:hover {
-  color: #0a66c2; 
+  color: #0a66c2;
   transform: translateX(10px);
 }
 
 .twitter-link:hover {
-  color: #1da1f2; 
+  color: #1da1f2;
   transform: translateX(10px);
 }
 
@@ -80,7 +84,14 @@ body, html {
   align-items: flex-start;
   font-size: 1.5rem;
   border: 1px solid #222;
-  transition: opacity 0.8s ease, transform 0.8s ease;
+  transition: opacity 0.8s ease, transform 0.8s ease, background-color 0.4s ease, border-color 0.4s ease;
+  scroll-margin-top: 6rem;
+}
+
+.content-block:hover {
+  background-color: #262626; 
+  border-color: #444;       
+  cursor: pointer;         
 }
 
 .hidden {
